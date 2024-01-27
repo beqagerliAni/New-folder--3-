@@ -1,0 +1,466 @@
+* {
+    margin: 0 ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(218, 218, 218);
+}
+.content-test {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.test {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    width:1200px ;
+}
+.racaca {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*searach bar da logo*/
+.dasawyisi {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 30px ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.content-title {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+.content-title h1 {
+    font-family: "Mont" ,sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.dasawyisi-Overview  h2 {
+    font-family: "inter", sans-serif;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+.links {
+    display: flex;
+    gap: 40px;
+}
+.imgpading {
+    padding: 20px;
+    background-color: #F5F7FA;
+    border-radius: 50px;
+}
+
+.searchi {
+    font-family: "inter",sans-serif;
+    background-color: #F5F7FA;
+    color: #8BA3CB;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    padding: 0 10px;
+}
+.search h2 {
+    font-family: "Inter",sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/*nav*/
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    width: fit-content;
+
+}
+
+nav p {
+    background-image:url("../img/economic-investment\ 1.png");
+    background-repeat:no-repeat ;
+    background-position: center left 30px;
+    font-family: "Inter",sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B1B1B1;
+    padding: 10px 80px;
+}
+
+nav h2 {
+    background-image: url("../img/Rectangle\ 17.png"),url("../img/home\ 2.png");
+    background-position: center left,center left 30px;
+    background-repeat:no-repeat,no-repeat;
+    font-family: "Inter",sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2D60FF;
+    padding: 10px 80px;
+
+}
+
+/* karta */
+.content-karta {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.karta-withd {
+    border-radius: 25px;
+    width: 350px;
+    height: 235px;
+}
+
+.karta-lurji {
+    display: flex;
+    padding: 20px 20px;
+    flex-direction: column;
+    background: linear-gradient(107.38deg, #4C49ED 2.61%, #0A06F4 101.2%);
+}
+.karta-logo {
+    background-image:url("../img/Chip_Card.png");
+    background-position: right;
+    background-repeat:no-repeat;
+
+}
+.kartebih2 {
+    color: #343C6A;
+    font-family: "Inter" ,sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 10px 0px;
+
+}
+.margin2 {
+    margin: 12px 0;
+}
+.karta-h3 {
+
+    font-family: "Lato",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.kartap {
+    font-family: "Lato",sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.kartap2 {
+    font-family: "Lato",sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.tetri {
+   color: white;
+}
+.kartah4 {
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.kartah5 {
+    font-family: "Inter",sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+.right {
+    text-align: right;
+}
+
+.contennt-karta-name {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.margin {
+    background-image: url("../img/Group\ 17.png");
+    background-position: right;
+    background-repeat:no-repeat ;
+    position: relative;
+    top: 40px;
+    font-family: "Lato",sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.karta-tetri {
+    display: flex;
+    padding: 20px 20px;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border: 1px solid #DFEAF2;
+}
+.karta-logo2 {
+    background-image: url( "../img/Chip_Card\ \(1\).png");
+    background-position: right;
+    background-repeat:no-repeat;
+}
+.logo {
+    background-image: url("../img/Goup\ 17.png");
+    background-position: right;
+    background-repeat:no-repeat ;
+    
+}
+
+.content-deposit {
+    display: flex;
+    justify-content: right;
+}
+
+/* deposit */
+
+.all-deposti {
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.depositi {
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 70px;
+    padding-right: 10px;
+    background-image: url("../img/oup\ 313.png");
+}
+
+.xarji {
+    font-family: "Inter" ,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: right;
+    width: 250px;
+    display: block;
+}
+
+.xarji-feri {
+    color: #FF4B4A;
+}
+.xaxrji-feri2 {
+    color: #41D4A8;
+}
+
+
+.activity {
+    display: flex;
+    width: 500;
+    justify-content: right;
+    gap: 10px;
+
+}
+.content-activity {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.activity p {
+    color: #718EBF;
+    font-family: "Inter" ,sans-serif;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+
+}
+
+.activity-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.content-activity-bck p {
+    font-family: "Inter",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #718EBF;
+
+}
+.content-activity-bck {
+    background-image: url("../img/Group\ 39.png");
+    background-repeat: no-repeat ;
+    padding: 30px 30px;
+    width: 730px;
+    background-position: center;
+    background-size: 450px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.activity-horizont {
+    display: flex;
+    margin-left:50px ;
+    gap: 50px;
+}
+
+.content-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.stats-img {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    width: 351px;
+    height: 280px;
+    background-image: url("../img/Group\ 443.png");
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: 240px;
+}
+
+.content-transfer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+
+
+}
+.transfer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px 20px;
+    border-radius: 20px;
+}
+.transfer-Livia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.transfer-Livia img {
+    width: 50px;
+}
+.transferh2 {
+    color: #232323;
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top:10px ;
+}
+.transferh3 {
+    color: #718EBF;
+    font-family: "Inter",sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.menh2 {
+    margin-top: 10px;
+    color: #232323;
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menh3 {
+    color: #718EBF;
+    font-family: "Inter",sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.transfer-names {
+    display: flex;
+    gap: 50px;
+    align-items:center ;
+}
+
+.transfer-amount {
+    display: flex;
+    align-items: center;
+}
+.transfer-amount a {
+    position: relative;
+    right: 60px;
+    background-position:center right 20px;
+    background-repeat: no-repeat;
+    background-image: url("../img/qaraldis\ tvitmfrinavi.jpg");
+    width: 120px;
+    height: 50px;
+    padding-left: 30px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    padding-top: 15px ;
+    border-radius: 50px;
+    background-color: #1814F3;
+    box-shadow: 4px 4px 18px -2px rgba(231, 228, 232, 0.80);
+}
